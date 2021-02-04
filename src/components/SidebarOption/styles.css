@@ -1,0 +1,49 @@
+.option {
+      display: flex;
+      align-items: center;
+      height: 40px;
+      padding: 0 10px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      cursor: pointer;
+      color:#818181
+}
+
+.option h3 {
+      flex: 1;
+      padding-left: 10px;
+      padding-right: 10px; 
+      font-size: 14px;
+      font-weight: 400;
+}
+
+
+.option p {
+      font-weight: 300;
+      display: none;
+}
+
+.option > .MuiSvgIcon-root {
+      padding:5px
+}
+
+
+
+.option:hover, 
+.option:hover > p
+.option:hover >h3,
+.active,
+.active p,
+.active h3 {
+      background-color: #fcecec;
+      color:#c04b37;
+      font-weight: bold !important;
+} 
+
+.active p{
+      display: inline !important;
+}
+
+.option:hover > p{
+      display: inline;
+}

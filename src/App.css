@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+.appBody {
+  display: flex;
+  height: 100vh;
+
+}
+
+.app {
+  height: 100vh;
+}

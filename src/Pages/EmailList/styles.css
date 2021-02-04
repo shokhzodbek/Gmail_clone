@@ -1,0 +1,27 @@
+.email {
+      flex: 1;
+      overflow: scroll;
+      background-color:white;
+      
+}
+.settings{
+      display: flex;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      background-color: white;
+      border-bottom: 1px solid whitesmoke; 
+      z-index: 999;
+      padding-right: 10px;
+}
+
+.section1 {
+      position: sticky;
+      top: 0;
+      display: flex;
+      background-color: white;
+      z-index: 999;
+      border-bottom: 1px solid whitesmoke;
+
+}
+
